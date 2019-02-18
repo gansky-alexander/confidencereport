@@ -1,0 +1,16 @@
+{
+    "name": "gansky/confidencereport",
+    "description": "Confidence report generator",
+    "type": "project",
+    "require": {
+        "phpoffice/phpexcel": "dev-master"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alexande Gansky",
+            "email": "alexander.gansky@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
