@@ -1,0 +1,4 @@
+parameters:
+    jira_host: "link to jira"
+    jira_user: "username"
+    jira_pass: "password from jira"
