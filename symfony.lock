@@ -1,4 +1,16 @@
 {
+    "lesstif/php-jira-rest-client": {
+        "version": "1.35.1"
+    },
+    "monolog/monolog": {
+        "version": "1.24.0"
+    },
+    "netresearch/jsonmapper": {
+        "version": "v1.4.0"
+    },
+    "phpoffice/phpexcel": {
+        "version": "1.8.2"
+    },
     "psr/cache": {
         "version": "1.0.1"
     },
@@ -88,5 +100,8 @@
     },
     "symfony/yaml": {
         "version": "v4.2.3"
+    },
+    "vlucas/phpdotenv": {
+        "version": "v2.6.1"
     }
 }
