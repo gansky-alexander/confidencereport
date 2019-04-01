@@ -27,11 +27,21 @@ services:
             - '%jira_user%'
             - '%jira_pass%'
 
+    excelWriter:
+        class: App\Service\ExcelWriter
+        autowire: false
+
     App\Command\CreateConfidenceReportCommand:
         calls:
             - method: setJiraReader
               arguments:
                   - '@jiraReader'
+            - method: setExcelWriter
+              arguments:
+                  - '@excelWriter'
+            - method: setProjectDir
+              arguments:
+                  - '%kernel.project_dir%'
         tags:
           - { name: 'console.command' }
     # add more service definitions when explicit configuration is needed
